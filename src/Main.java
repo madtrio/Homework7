@@ -17,6 +17,35 @@ public class Main {
 
     public static void task2() {
         System.out.println("Task 2");
+        int[] numb32;
+        numb32 = new int[]{1, 2, 3};
+        double[] numbFloat2 = {1.57, 7.654, 9.986};
+        int[] myNumb2 = new int[4];
+        myNumb2 = new int[]{3, 2, 1, 0};
+        for (int i1 = 0; i1 < numb32.length; i1++) {
+            if (i1 == numb32.length - 1) {
+                System.out.print(numb32[i1]);
+                break;
+            }
+            System.out.print(numb32[i1] + ", ");
+        }
+        System.out.println(" ");
+        for (int i2 = 0; i2 < numbFloat2.length; i2++) {
+            if (i2 == numbFloat2.length - 1) {
+                System.out.print(numbFloat2[i2]);
+                break;
+            }
+            System.out.print(numbFloat2[i2] + ", ");
+        }
+        System.out.println(" ");
+        for (int i3 = 0; i3 < myNumb2.length; i3++) {
+            if (i3 == myNumb2.length - 1) {
+                System.out.print(myNumb2[i3]);
+                break;
+            }
+            System.out.print(myNumb2[i3] + ", ");
+        }
+        System.out.println(" ");
 
     }
 
