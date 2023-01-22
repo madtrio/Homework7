@@ -8,8 +8,10 @@ public class Main {
 
     public static void task1() {
         System.out.println("Task 1");
-        int[] numb3;
-        numb3 = new int[]{1, 2, 3};
+        int[] numb3 = new int[3];
+        numb3[0] = 1;
+        numb3[1] = 2;
+        numb3[2] = 3;
         double[] numbFloat = {1.57, 7.654, 9.986};
         int[] myNumb = new int[4];
         myNumb = new int[]{3, 2, 1, 0};
