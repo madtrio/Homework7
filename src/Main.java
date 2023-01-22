@@ -84,6 +84,17 @@ public class Main {
 
     public static void task4() {
         System.out.println("Task 4");
-
+        int[] numb34;
+        numb34 = new int[]{1, 2, 3};
+        for (int i1 = 0; i1 < numb34.length; i1++) {
+            if (numb34[i1] % 2 > 0) {
+                numb34[i1] = numb34[i1] + 1;
+            }
+            if (i1 == numb34.length - 1) {
+                System.out.print(numb34[i1]);
+                break;
+            }
+            System.out.print(numb34[i1] + ", ");
+        }
     }
 }
