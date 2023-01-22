@@ -51,7 +51,35 @@ public class Main {
 
     public static void task3() {
         System.out.println("Task 3");
-
+        int[] numb33;
+        numb33 = new int[]{1, 2, 3};
+        double[] numbFloat3 = {1.57, 7.654, 9.986};
+        int[] myNumb3 = new int[4];
+        myNumb3 = new int[]{3, 2, 1, 0};
+        for (int i1 = 2; i1 < numb33.length; i1--) {
+            if (i1 == numb33.length - 3) {
+                System.out.print(numb33[i1]);
+                break;
+            }
+            System.out.print(numb33[i1] + ", ");
+        }
+        System.out.println(" ");
+        for (int i2 = 2; i2 < numbFloat3.length; i2--) {
+            if (i2 == numbFloat3.length - 3) {
+                System.out.print(numbFloat3[i2]);
+                break;
+            }
+            System.out.print(numbFloat3[i2] + ", ");
+        }
+        System.out.println(" ");
+        for (int i3 = 3; i3 < myNumb3.length; i3--) {
+            if (i3 == myNumb3.length - 4) {
+                System.out.print(myNumb3[i3]);
+                break;
+            }
+            System.out.print(myNumb3[i3] + ", ");
+        }
+        System.out.println(" ");
     }
 
     public static void task4() {
